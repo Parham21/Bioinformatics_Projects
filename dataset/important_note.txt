@@ -1,0 +1,3 @@
+*Note*
+since the training images data were too large (~40mg) i couldn't upload it.
+please extract the corresponding archive (.gz) before running the codes.
