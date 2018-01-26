@@ -22,7 +22,7 @@ trainImages, trainLabels, testImages, testLabels = Extractor.getData()
 # number of training images is set to 2000 so the code would run faster. the
 # result of training with 60000 images is available in log.md. don't uncomment
 # the related lines below, for the log will be replaced.
-# log = open('log.md', 'w')
+# log = open('log.txt', 'w')
 # sys.stdout = log
 
 # 1. Random Forest

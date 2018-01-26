@@ -49,7 +49,7 @@ class Extractor:
         # print(magicNum, size, rows, cols)
         testImagesMat = []
         print('extracting  test images... ', end='', flush=True)
-        for cnt in range(100):
+        for cnt in range(500):
             image = []
             for r in range(rows):
                 for c in range(cols):
@@ -64,7 +64,7 @@ class Extractor:
         # print(magicNum, size)
         testLabelsMat = []
         print('extracting  test labels... ', end='', flush=True)
-        for cnt in range(100):
+        for cnt in range(500):
             testLabelsMat.append(Struct('>B').unpack(testLabels.read(1))[0])
         print('Done\n')
         return imagesMat, labelsMat, testImagesMat, testLabelsMat
